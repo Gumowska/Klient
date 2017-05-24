@@ -18,10 +18,7 @@ namespace Klient
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Close();
-        }
+
 
         private void polaczenie_Click(object sender, EventArgs e)
         {
@@ -44,6 +41,11 @@ namespace Klient
 
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
