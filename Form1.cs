@@ -26,7 +26,7 @@ namespace Klient
         private void polaczenie_Click(object sender, EventArgs e)
         {
             string host = Adres.Text;
-            int port = System.Convert.ToInt32(port_p.Value);
+            int port = Convert.ToInt32(port_p.Value);
 
             try
             {
